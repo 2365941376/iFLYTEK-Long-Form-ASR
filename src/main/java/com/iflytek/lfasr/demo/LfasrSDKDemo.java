@@ -27,7 +27,7 @@ public class LfasrSDKDemo {
     // 2、相对路径：./resources/audio/lfasr.wav
     // 3、通过classpath：
     private static final String AUDIO_FILE_PATH = Objects.requireNonNull(LfasrSDKDemo.class.getResource("/")).getPath()
-            + "/audio/如何发挥无限潜能.m4a";
+            + "/audio/待识别音频.m4a";
     // 该文件，存储服务器返回的数据
     private static final String formattedPathName = "result.json";
     // 该文件，存储音频文字
